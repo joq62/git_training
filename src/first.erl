@@ -1,6 +1,6 @@
 %%% -------------------------------------------------------------------
 %%% Author  : uabjle
-%%% Rev 1.0.2
+%%% Rev 1.1.0
 %%% Description : dbase using dets 
 %%%
 %%% Created : 10 dec 2012
@@ -36,6 +36,7 @@ start()->
     io:format("hello world ~n"),
     io:format("rev 1.0.1  ~n"),
     io:format("rev 1.0.2  ~n"),
+    io:format("rev 1.1.0  ~n"),
     init:stop().
 %% --------------------------------------------------------------------
 %% Function: 
