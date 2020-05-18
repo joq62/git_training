@@ -13,3 +13,12 @@
 3) Satisfied - merger branch
 	* git checkout master
 	* git merge branchname
+	* git push 
+
+4) Use tags for getting right versions when downloadng SW
+	* git tag -a v1.0.0 -m "comment"
+or
+	* git tag v1.0.0
+	* git -l -n3
+
+	* git push origin tag
