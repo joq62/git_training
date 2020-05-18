@@ -1,4 +1,15 @@
 
-1) Create push etc is already known
+1) Create push and update
+	* git add *
+	* git commit -m "comment"
+	* git push
 
-2) Tag a release 
+2) Continue to develop but don't want to use it wrong path  	
+	* git checkout -b branchname
+	* git add *
+	* git commit -m "comment"
+	* git push -u branchname
+
+3) Satisfied - merger branch
+	* git checkout master
+	* git merge branchname
